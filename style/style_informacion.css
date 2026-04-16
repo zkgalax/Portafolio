@@ -57,7 +57,22 @@ body {
 
 
 
-
+@media(max-width: 768px) {
+    .PDF_Portafolio {
+        width: 80%;
+        padding: 20px 10px;
+        font-size: 14px;
+        text-align: center;
+    }
+    .menu-superior {
+        position: relative;
+        top: 30px;
+        right: 0;
+        display: flex;
+        justify-content: center;
+        margin-bottom: 50px;
+    }
+}
 
 
 
