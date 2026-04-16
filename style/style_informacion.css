@@ -1,0 +1,88 @@
+body {
+    background-color:#f5f5dc;
+    border: 20px solid #939384;
+    min-height: 100vh;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.menu-superior {
+    position: absolute;
+    top: 30px;
+    right: 30px;
+    display: flex;
+    gap: 8px;
+
+
+}
+
+.boton-nav {
+    text-decoration: none;
+    color: white;
+    padding: 10px 20px;
+    border-radius: 8px;
+    font-family: sans-serif;
+    transition: background 0.3s;
+}
+
+.boton-nav {
+    background-color: rgb(170, 170, 115);
+}
+
+.boton-nav:hover {
+    background-color: #702082;
+}
+
+.PDF_Portafolio {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    display: flex;
+    gap: 8px;
+    text-decoration: none;
+    background-color: rgb(170, 170, 115);
+    color: white;
+    padding: 300px 200px;
+    border-radius: 8px;
+    font-family: sans-serif;
+    text-align: center;
+    font-size: 5em;
+    transition: background 0.3s;
+}
+
+.PDF_Portafolio:hover {
+    background-color: #702082;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
