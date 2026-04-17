@@ -66,11 +66,11 @@ body {
     }
     .menu-superior {
         position: relative;
-        top: 30px;
+        top: 0;
         right: 0;
-        display: flex;
         justify-content: center;
-        margin-bottom: 50px;
+        margin-bottom: 20px;
+        padding: 10px;
     }
 }
 
