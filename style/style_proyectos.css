@@ -86,12 +86,19 @@ body {
     .contenedor-proyectos {
         flex-direction: column; /* Fuerza la dirección vertical */
         align-items: center;    /* Centra las cards una debajo de otra */
-        padding-top: 100px;
     }
 
     .proyecto-card {
         width: 50%;            /* Ocupa el 90% del ancho del móvil */
         max-width: 350px;      /* Evita que se vea gigante en tablets */
+    }
+    .menu-superior {
+        position: relative;
+        top: 0;
+        right: 0;
+        justify-content: center;
+        margin-bottom: 20px;
+        padding: 10px;
     }
 }
  
