@@ -1,9 +1,14 @@
 body {
-    background-color:#f5f5dc;
-    border: 20px solid #939384;
+    background-color:#151618;
     min-height: 100vh;
     margin: 0;
     box-sizing: border-box;
+}
+
+.avatar {
+    width: 400px;        /* Ajusta este número (150px, 180px, etc.) hasta que te guste */
+    height: auto;         /* Esto mantiene la proporción para que no se vea estirada */
+    border-radius: 50%;
 }
 
 .menu-derecha {
@@ -30,24 +35,24 @@ body {
     right: 25px;
     display: flex;
     gap: 8px;
-}
+} 
 
 .boton-nav {
     text-decoration: none;
-    color: white;
+    color: #ffffff;
     padding: 10px 20px;
     border-radius: 8px;
     font-family: sans-serif;
     transition: background 0.3s;
-    transition: transform 0.9s ease;
+    transition: transform 0.8s ease;
 }
 
 .boton-nav {
-    background-color: rgb(170, 170, 115);
+    background-color: #7256cc;
 }
 
 .boton-nav:hover {
-    background-color: #702082;
+    background-color: #8066d6;
     transform: scale(1.1); 
     box-shadow: 0px 10px 10px rgba(93, 0, 255, 0.356)
 }
@@ -55,21 +60,23 @@ body {
 .contenedor-descripcion {
     display: flex;
     justify-content: center;
+    margin-top: 30px;
 }
 
 .descripcion-card {
-    background-color: white;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: #151618;
     border: 2px solid #b37bc2;
     padding: 50px;
     border-radius: 15px;
     width: 600px;
     text-align: center;
-    box-shadow: 0px 4px 10px rgba(0,0,0,0.1);
+    box-shadow: 0px 0px 50px rgba(78, 4, 251, 0.287);
 }
 
 .descripcion-card {
     margin-top: 0;
-    color: #702082;
+    color: #7A5CDB;
 }
 
 .contenedor-principal {
@@ -97,7 +104,8 @@ body {
     height: 40px;
     border-radius: 50%;
     transition: transform 0.3s;
-    background-color: #b37bc2;
+    background-color: #e6e6e6;
+    box-shadow: 0px 0px 20px #450CAD;
     padding: 5px;
 }
 
@@ -117,8 +125,10 @@ body {
         gap: 20px;
     }
     .descripcion-card {
-        width: 90%;
-        padding: 20px;
+        width: 70%;
+        padding: 5px;
+        font-size: 0.9rem;
+        margin: 25px;
     }
     .menu-superior {
         position: relative;
