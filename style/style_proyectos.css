@@ -35,29 +35,25 @@ body {
 
 .contenedor-proyectos {
     display: flex;
-    flex-wrap: wrap;       /* Esto permite que las cards bajen si no caben */
-    justify-content: center; /* Las centra si sobran espacios */
-    gap: 30px;             /* Espacio entre cada card */
-    padding: 20px;
-    margin-top: 50px;
+    flex-direction: column; /* ¡Esto es la clave! Uno debajo del otro */
+    align-items: center;    /* Centra las tarjetas horizontalmente */
+    gap: 50px;             /* Separa una tarjeta de la otra */
+    padding: 40px 0;        /* Espacio arriba y abajo de todo el grupo */
+    width: 100%;            /* Que ocupe todo el ancho disponible */
 }
 
 .proyecto-card {
     background-color: #151618;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    border: 2px solid #b37bc2;
-    padding: 20px;
+    border: 2px solid #9c4dff;
     border-radius: 15px;
-    width: 320px;
-    height: 450px;
-    display: flex;
-    flex-direction: column;
-    justify-content: space-around;
-    text-align: center;
-    box-shadow: 10px 15px 50px #5a2d82;
-    margin-top: 0;
-    color: #7A5CDB;
-    transition: transform 0.3s ease;
+    padding: 30px;
+    width: 80%;
+    color: #7A5CDB;             /* Ancho relativo */
+    max-width: 500px;       /* No deja que se estire demasiado en PC */
+    box-shadow: 0 0 20px rgba(156, 77, 255, 0.4);
+    text-align: center;     /* Centra el texto de adentro */
+    transition: transform 0.2s ease;
 }
 
 .proyecto-card:hover {
@@ -90,13 +86,12 @@ body {
     .contenedor-proyectos {
         flex-direction: column; /* Fuerza la dirección vertical */
         align-items: center;    /* Centra las cards una debajo de otra */
+        padding-top: 100px;
     }
 
     .proyecto-card {
-        width: 80%;            /* Ocupa el 90% del ancho del móvil */
+        width: 50%;            /* Ocupa el 90% del ancho del móvil */
         max-width: 350px;      /* Evita que se vea gigante en tablets */
-        margin: 10px 0;        /* Espacio arriba y abajo */
-        /* Borra cualquier 'position: absolute' o 'left/top' si los tenías */
     }
 }
  
